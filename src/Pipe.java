@@ -1,9 +1,11 @@
-import java.util.*;
-        
 /**
- *
+ * This class passes data between different filters.
+ * 
  * @author drewjohnson
+ * @since 2-14-18
  */
+import java.util.*;
+      
 public class Pipe 
 {
     private Queue<String> data;

@@ -1,6 +1,12 @@
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+/**
+ * This class reads data from a text file.
+ * 
+ * @author Drew Johnson
+ * @since 2-14-18
+ */
 import java.io.IOException;
 import java.util.*;
 
@@ -40,6 +46,7 @@ public class DataSource
     
     public void push(Pipe pipe)
     {
+        System.out.println("Source: Done.");
         pipe.pull(dataInput);
     }
 }

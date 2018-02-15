@@ -1,3 +1,9 @@
+/** 
+ * This class rotates the elements in a string.
+ * 
+ * @author Drew Johnson
+ * @since 2-14-18
+ */
 import java.util.*;
 
 public class RotateFilter 
@@ -57,6 +63,7 @@ public class RotateFilter
     
     public void push(Pipe pipe)
     {
+        System.out.println("Rotate Filter: Done");
         pipe.pull(mutatedData);
     }
 }

@@ -1,4 +1,11 @@
-
+/**
+ * This program implements pipes and filters.
+ * 
+ * 
+ * @author drew johnson/david babb
+ * @since 2-14-18
+ * 
+ */
 public class Main 
 {
     public static void main(String [] args)
