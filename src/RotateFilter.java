@@ -63,7 +63,6 @@ public class RotateFilter
     
     public void push(Pipe pipe)
     {
-        System.out.println("Rotate Filter: Done");
         pipe.pull(mutatedData);
     }
 }

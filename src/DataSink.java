@@ -20,11 +20,9 @@ public class DataSink
     
     public void write()
     {
-        System.out.println("Preparing to print...");
-        
         for(int i = 0; i < size; i++)
         {
-            System.out.println(i + " " + data.remove());
+            System.out.println(data.remove());
         }
     }
 }

@@ -46,7 +46,6 @@ public class DataSource
     
     public void push(Pipe pipe)
     {
-        System.out.println("Source: Done.");
         pipe.pull(dataInput);
     }
 }
